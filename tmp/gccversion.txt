@@ -1,0 +1,38 @@
+Using built-in specs.
+COLLECT_GCC=arm-none-eabi-gcc
+COLLECT_LTO_WRAPPER=/usr/local/arm/libexec/gcc/arm-none-eabi/4.7.2/lto-wrapper
+arm-none-eabi-gcc (GCC) 4.7.2
+Copyright (C) 2012 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+Target: arm-none-eabi
+Configured with: ../gcc-4.7.2/configure --target=arm-none-eabi --prefix=/usr/local/arm --enable-interwork --enable-multilib --enable-languages=c,c++ --with-newlib --with-gnu-as --with-gnu-ld --disable-nls --disable-shared --disable-threads --with-headers=newlib/libc/include --disable-libssp --disable-libstdcxx-pch --disable-libmudflap --disable-libgomp --disable-werror --with-system-zlib --disable-newlib-supplied-syscalls
+Thread model: single
+gcc version 4.7.2 (GCC) 
+COLLECT_GCC_OPTIONS='--version' '-v'
+ /usr/local/arm/libexec/gcc/arm-none-eabi/4.7.2/cc1 -quiet -v -D__USES_INITFINI__ help-dummy -quiet -dumpbase help-dummy -auxbase help-dummy -version --version -o /tmp/ccWipwGV.s
+GNU C (GCC) version 4.7.2 (arm-none-eabi)
+	compiled by GNU C version 4.6.3, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='--version' '-v'
+ /usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/bin/as -v -meabi=5 --version -o /tmp/ccyAZ0tG.o /tmp/ccWipwGV.s
+GNU assembler version 2.22 (arm-none-eabi) using BFD version (GNU Binutils) 2.22
+GNU assembler (GNU Binutils) 2.22
+Copyright 2011 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or later.
+This program has absolutely no warranty.
+This assembler was configured for a target of `arm-none-eabi'.
+COMPILER_PATH=/usr/local/arm/libexec/gcc/arm-none-eabi/4.7.2/:/usr/local/arm/libexec/gcc/arm-none-eabi/4.7.2/:/usr/local/arm/libexec/gcc/arm-none-eabi/:/usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/:/usr/local/arm/lib/gcc/arm-none-eabi/:/usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/:/usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='--version' '-v'
+ /usr/local/arm/libexec/gcc/arm-none-eabi/4.7.2/collect2 -X --version /usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/crti.o /usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/crtbegin.o /usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/crt0.o -L/usr/local/arm/lib/gcc/arm-none-eabi/4.7.2 -L/usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib /tmp/ccyAZ0tG.o --start-group -lgcc -lc --end-group /usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/crtend.o /usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/crtn.o
+collect2 version 4.7.2
+/usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/bin/ld -X --version /usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/crti.o /usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/crtbegin.o /usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/crt0.o -L/usr/local/arm/lib/gcc/arm-none-eabi/4.7.2 -L/usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib /tmp/ccyAZ0tG.o --start-group -lgcc -lc --end-group /usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/crtend.o /usr/local/arm/lib/gcc/arm-none-eabi/4.7.2/crtn.o
+GNU ld (GNU Binutils) 2.22
+Copyright 2011 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
