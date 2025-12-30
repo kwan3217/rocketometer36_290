@@ -60,7 +60,7 @@ The published tables have the timestamp normalized (cycle ambiguity fixed, conve
 * `RKTO0600.SDS.zip` - raw rail data file, PKZIP compressed
 * `firmware.tar.gz` - Firmware package, as flown (from RKTO0620.SDS) but zpaq uncompressed and gzip recompressed
 * `extractFast.c` - C program described above
-* `apid list.xlsx` - Some documentation of the packet format, not know to be completely up-to-date. Use the source code as the final authority.
+* `apid list.ods` - Some documentation of the packet format, not know to be completely up-to-date. Use the source code as the final authority.
 * `import_fast.pro` - IDL program which converts extractFast output to CSV tables, among other things.
 * `RKTO0620_csv.zip` - Compressed archive containing the following files
    * `RKTO0620_fast.csv` - Comma separated values, fast packets as described above
