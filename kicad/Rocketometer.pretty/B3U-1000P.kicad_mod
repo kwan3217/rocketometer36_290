@@ -1,0 +1,159 @@
+(footprint "B3U-1000P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.27 2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d3a2f9fb-f4d4-4672-93a5-443db855ecd7")
+		(effects
+			(font
+				(size 0.747776 0.747776)
+				(thickness 0.065024)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "16bd77b6-b79d-41b4-98ec-6c804fb07d98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8771f22c-a493-4511-bb82-37ad6f019d23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cea382c1-1576-4416-b959-160c7abbc7ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.5 1.25)
+		(end -1.5 -1.25)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b9e10ca-d735-47ca-96e9-8f458cf5b29a")
+	)
+	(fp_line
+		(start 1.5 -1.25)
+		(end 1.5 1.25)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02c17d16-5128-4a1b-8024-b83bdc416a91")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "04a44653-12ef-479f-ad26-6f1fef984208")
+	)
+	(fp_poly
+		(pts
+			(xy -2 0.7) (xy -1.5 0.7) (xy -1.5 -0.7) (xy -2 -0.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "d9fafae1-c2fd-44a9-a5eb-8ce144c5a9fe")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5 0.7) (xy 2 0.7) (xy 2 -0.7) (xy 1.5 -0.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "449106d5-fcbc-4df6-acda-fd71426cbcd7")
+	)
+	(fp_line
+		(start -1.5 -1.25)
+		(end 1.5 -1.25)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "2fc35184-467a-466f-b203-9c643edf64c2")
+	)
+	(fp_line
+		(start 1.5 1.25)
+		(end -1.5 1.25)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "b5645cd9-3425-436a-9824-7772f918d031")
+	)
+	(pad "P$1" smd rect
+		(at -1.7 0)
+		(size 0.8 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "1d7ec02d-2e02-4425-bdc1-6475cd6a66f8")
+	)
+	(pad "P$2" smd rect
+		(at 1.7 0)
+		(size 0.8 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "e3c9d5c0-e569-4094-8a41-f31b08650c85")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P-B.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

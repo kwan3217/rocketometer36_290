@@ -1,0 +1,126 @@
+(footprint "ABS06"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.1 -0.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8677aa70-0593-45f7-9669-a434eb43c7d7")
+		(effects
+			(font
+				(size 0.276 0.276)
+				(thickness 0.024)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "ABS06"
+		(at -1.1 1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "10df1f89-fb43-4e30-bb0d-f8f36b990be6")
+		(effects
+			(font
+				(size 0.276 0.276)
+				(thickness 0.024)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "921fcba7-6935-4aeb-a66a-5116be1002cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c14af2be-19cf-4116-a76d-146c1ebf55a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "395ec492-8064-4cea-9505-428785619e8c")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8a2ff5e-19b9-4cdb-a4c6-e4a12ac142e5")
+	)
+	(fp_line
+		(start 1 -0.6)
+		(end -1 -0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1df965e3-89c9-4841-9609-77b1f61a6144")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end 1 -0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1826112e-7a56-437a-9e32-249121ff45af")
+	)
+	(pad "1" smd rect
+		(at -0.725 0)
+		(size 0.75 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "ac1d2374-c1f3-44df-a926-c5f2f4e8c0d1")
+	)
+	(pad "2" smd rect
+		(at 0.725 0)
+		(size 0.75 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "7b15960f-9db9-4bd9-a81c-700e3c7281e9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_5032-2Pin_5.0x3.2mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.375 0.5 0.5)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

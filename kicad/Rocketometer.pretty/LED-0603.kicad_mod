@@ -1,0 +1,126 @@
+(footprint "LED-0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.6985 0.889 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a1326c2c-c12a-45ca-bc2f-d708e55f9b9f")
+		(effects
+			(font
+				(size 0.373888 0.373888)
+				(thickness 0.032512)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "LED-0603"
+		(at 1.0795 1.016 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5f9e4d42-d6e0-4a4a-9dc7-9ac501913d0e")
+		(effects
+			(font
+				(size 0.373888 0.373888)
+				(thickness 0.032512)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb6436c8-60e0-4fe8-9ed1-4c64cdbf5427")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "715e40e0-6414-4850-bdba-efbc0bf2208d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.46 -0.17)
+		(end 0 -0.17)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec86c66d-8772-435d-bad4-7e7b117a0e75")
+	)
+	(fp_line
+		(start -0.0254 -0.1546)
+		(end -0.2184 0.14)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0145e8a7-9d33-4852-a961-beee1690563c")
+	)
+	(fp_line
+		(start 0 -0.17)
+		(end 0.2338 0.14)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1bc6cc96-0469-4d4e-bd13-bd53c1c2fb7f")
+	)
+	(fp_line
+		(start 0.46 -0.17)
+		(end 0 -0.17)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "422c554a-402c-4ced-b61f-cdc78482928d")
+	)
+	(pad "A" smd rect
+		(at 0 0.75)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "e7365bba-3ef6-40e5-92ec-389b236856b5")
+	)
+	(pad "C" smd rect
+		(at 0 -0.75)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "781973db-28a3-4bce-bf09-5c02adc2e9a0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric_Castellated.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
