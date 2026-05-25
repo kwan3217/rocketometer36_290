@@ -1,3 +1,5 @@
+Moved to [GitHub](https://gitlab.com/kwan32171/rocketometer36_290)
+
 This documents the data produced by the Rocketometer during NASA Sounding Rocket Flight 36.290, 2013 Oct 21.
 
 # Encoding format
